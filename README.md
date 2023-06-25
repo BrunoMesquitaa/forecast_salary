@@ -1,6 +1,6 @@
-# Forecast Salary API Documentation
+# Forecast Brazilian Salary API Documentation
 
-The Forecast Salary API is a powerful tool that allows users to predict salaries based on various factors and parameters. This documentation provides a comprehensive guide on how to use the API effectively.
+The Forecast Brazilian Salary API is a powerful tool that allows users to predict salaries based on various factors and parameters. This documentation provides a comprehensive guide on how to use the API effectively.
 
 > Using as basis: 
 >
@@ -56,11 +56,11 @@ The Forecast Salary API is a powerful tool that allows users to predict salaries
 
 ## Introduction
 
-The Forecast Salary API utilizes advanced machine learning algorithms to analyze historical salary data and predict future salary trends. It takes into account various factors such as location, education level, age, working hours, race, gender, disability, employment type, establishment size, occupation, and category to generate accurate salary forecasts.
+The Forecast Brazilian Salary API utilizes advanced machine learning algorithms to analyze historical salary data and predict future salary trends. It takes into account various factors such as location, education level, age, working hours, race, gender, disability, employment type, establishment size, occupation, and category to generate accurate salary forecasts.
 
 ## Endpoint
 
-The base URL for accessing the Forecast Salary API is:
+The base URL for accessing the Forecast Brazilian Salary API is:
 
 ```
 http://127.0.0.1:8000/docs
@@ -68,7 +68,7 @@ http://127.0.0.1:8000/docs
 
 ## Request Format
 
-To make a salary forecast request, send a POST request to the `/model_xg` endpoint. The request payload should be in JSON format and include the necessary parameters. The following parameters are required:
+To make a Brazilian salary forecast request, send a POST request to the `/model_xg` endpoint. The request payload should be in JSON format and include the necessary parameters. The following parameters are required:
 
 - `id_municipio`: The municipality ID where the job is based.
 - `grau_instrucao`: The education level of the job seeker.
@@ -88,7 +88,7 @@ Additional optional parameters may be available, depending on the specific requi
 
 ## Response Format
 
-The response from the Forecast Salary API is returned in JSON format and contains the predicted salary information. The response will include the following fields:
+The response from the Brazilian Forecast Salary API is returned in JSON format and contains the predicted salary information. The response will include the following fields:
 
 - `valor`: The predicted salary for the specified parameters.
 - `valor_min` and `valor_max`: The confidence interval of the predicted salary.
