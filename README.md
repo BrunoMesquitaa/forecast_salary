@@ -1,6 +1,11 @@
+<div align="center">
+  
 # Forecast Brazilian Salary API Documentation
+  
+<img src="forecast_salary.jpeg" width="250">
 
 The Forecast Brazilian Salary API is a powerful tool that allows users to predict salaries based on various factors and parameters. This documentation provides a comprehensive guide on how to use the API effectively.
+</div>
 
 > Using as basis: 
 >
