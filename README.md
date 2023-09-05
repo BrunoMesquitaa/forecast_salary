@@ -1,5 +1,5 @@
 <div align="center">
-<img src="forecast_salary.jpeg" width="250">
+<img src="forecast_salary.jpeg" width="500">
   
 # Forecast Brazilian Salary API Documentation
 
